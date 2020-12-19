@@ -4,3 +4,8 @@
 * pom.xml文件：Maven的构建规范。
 
 ### pom.xml文件
+几个关键的节点：
+* <packaging></packaging>:申明项目打包的类型（jar或war）
+* <version></version>: spring boot的版本
+* <dependency></dependency>:依赖项
+* <plugin></plugin>:项目中使用的插件
