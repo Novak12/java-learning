@@ -17,7 +17,7 @@ create table if not exists Taco_Ingredients(
 
 alter table Taco_Ingredients
     add foreign key (taco) references Taco(id);
-alter tabler Taco_Ingrdients
+alter table Taco_Ingredients
     add foreign key (ingredient) references Ingredient(id);
 
 create table if not exists Taco_Order(
@@ -33,7 +33,7 @@ create table if not exists Taco_Order(
     placedAt timestamp not null
  );
 
- create table if exists Taco_Order_Tacos(
+ create table if not exists Taco_Order_Tacos(
     tacoOrder bigint not null,
     taco bigint not null
  );
