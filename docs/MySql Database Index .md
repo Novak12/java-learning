@@ -15,5 +15,5 @@
 ```
  details how the data is stored inside the data files, database
 ```
-在MySql中，最小数据页的大小是16K(innodb)；在sqlserver中，最小的数据页是8K.<br/>
-
+在MySql中，最小数据页的是16KB(innodb)；在sqlserver中，最小的数据页是8KB.这些数据页的大小是可设置的.<br/>
+数据在数据也中是按行保存的。<br/>
